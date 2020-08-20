@@ -1,0 +1,15 @@
+
+FROM selenium/node-chrome
+
+COPY resources /usr/local/share/jgt/resources
+
+# defaults
+ENV HUB_PORT 4444
+ENV NODE_MAX_SESSION 1
+ENV NODE_MAX_INSTANCES 1
+ENV START_XVFB true
+ENV SCREEN_WIDTH 1366
+ENV SCREEN_HEIGHT 768
+ENV SCREEN_DEPTH 24
+ENV SCREEN_DPI 74
+

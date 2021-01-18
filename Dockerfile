@@ -1,5 +1,5 @@
 
-FROM selenium/node-chrome
+FROM selenium/node-chrome:87.0-20201208
 
 COPY resources /usr/local/share/jgt/resources
 
